@@ -1,0 +1,23 @@
+function addTwoNums(a, b){
+    console.log(a + b)
+}
+function randomNum() {
+    console.log(Math.floor((Math.random() * 10) + 1))
+}
+function specificNum() {
+    console.log(42)
+}
+var useRandom = true;
+var getNumber;
+if (useRandom){
+    getNumber = randomNum
+}
+else {
+    getNumber = specificNum
+}
+addTwoNums(getNumber(), getNumber())
+
+
+console.log(Math.floor((Math.random() * 100) + 1))
+console.log(Math.floor((Math.random() * 100)))
+console.log(54)

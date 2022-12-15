@@ -1,0 +1,29 @@
+'{"greeting":"hello"}'
+const jsonStr = '{"greeting":"hello"}'
+JSON.parse(jsonStr)
+
+//How to convert JSON string into javascript object using the JSON.parse() object
+
+'{"greeting": "Hello"}'
+'{"greeting": "Hello"}'
+const jsonStr = '{"greeting": "Hello"}'
+undefined
+JSON.parse(jsonStr)
+{greeting: 'Hello'}
+const aPlainObj = JSON.parse(jsonStr)
+undefined
+aPlainObj.greeting = 'hi'
+'hi'
+aPlainObj
+{greeting: 'hi'}
+
+
+//How to convert a javascript object into a JSON using a JSON.stringify() object
+const data = {
+    firstName: 'jame',
+    secondName:'jame',
+    thirdName: 'joe'
+}
+undefined
+JSON.stringify(data)
+'{"firstName":"jame","secondName":"jame","thirdName":"joe"}'
